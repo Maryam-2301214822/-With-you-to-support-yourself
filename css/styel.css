@@ -1,0 +1,197 @@
+/*////////////////////لكل///////////////////////////*/
+body{ font-family: Arial, Helvetica, sans-serif;font-size: 15px; Line-height: 1.5;  margin: 0;
+     padding: 0; background-color:#FFEAD3 ; width:80%;margin:auto;}
+.cont{ overflow: hidden;}
+/* التمرير السلس */
+html {scroll-behavior: smooth;
+}
+  /* ----------------------- لتريسة الشعار مع  اسم الصفحة الترويسة ---------------------------------*/
+header{margin-top: 10px ;min-height:60px ;overflow: hidden;border-top-left-radius:20px;border-top-right-radius:20px ;}
+header>.cont{ display: flex; background-color:#9E3B3B  ; border-bottom: 4px solid  #ECDCBF; overflow: hidden;}
+/*   تبعت الشعار  h1*/
+#beand2{ margin-right: px; }
+header h1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:#FFEAD3;word-spacing:3px; 
+font-weight:bold  ; padding-top: 2% ; padding-left: 0%; margin-right: -1%;}
+header h1>.slogan{color:#ec7575;word-spacing:3px; }
+/* img*/
+#beand{width: 80px;height: 80px;flex: 0 0 auto;margin-top: 1% ;}
+img { width: 100%;  height:  100%;
+      /* انتهاء لتريسة الشعار مع  اسم الصفحة الترويسة ---------------------------------*/
+
+}/*////////////////////////////////////// nav////////////////////////////////////////*/
+header ul{ margin: 0px; padding: 0px;}
+header li{ float:right ; list-style: none; padding: 0 20px 0 20px;}
+li >a{ text-decoration: none; padding-top: 3% ; color: #9E3B3B; font-weight: bold; padding: 10px;padding-top:  13px;
+       padding-bottom:  20px;transition: all .3s ease-in;
+
+}
+ li >a:hover{ background: #9E3B3B ; color:    #ec7575;  }
+#Lists>.cont{ background-color:#EA7B7B ; border-bottom: 4px solid  #9E3B3B; padding-top: 1% ;}
+#Lists a:hover{ color:  #ECDCBF ;}
+#Lists a.current{ color: #ECDCBF;background-color: #9E3B3B;}
+ /*////////////////////////////////////// navانتهاء////////////////////////////////////////*/
+
+/*--------------خلفية العنوان والفقرة --------------*/
+ #Backgimage{ background:url(../images/5767946.png); height:400px; width:100% ; background-size: cover;
+  background-position:center; background-repeat: no-repeat; text-align:center; color:#812828;
+    border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
+ #Backgimage .cont h2{ margin: 100px; font-size: 50px; margin: 6% -2% 5% 5% ;}
+ #Backgimage .cont p{ font-size: 20px; margin: 5% ; margin-bottom: 14%; color: #ec7575;  text-align: center;  }
+ .aboutUs{background-color: #812828; width:300px; margin: auto; border-radius: 50%; }
+ .aboutUs a { margin: auto; text-decoration: none; color: #221818;}
+ .aboutUs a:hover{  color: #2a5a54;}
+/*//////////////////////// الصفحة الريسية المحتوي///////////////////////////////*/
+
+ .box{ width:98% ;background-color:#EA7B7B ; height:33%;  padding-bottom: 30px;  box-shadow: 5px 5px #812828 ;
+    border-radius: 20px;    margin-top: 10%;margin-bottom: 10%;}
+  .box:hover{ width:100% ; height:39%;}
+ .box img  { margin: 30px auto 0px; float:right; width:15%}
+ .box a{ text-decoration: none; text-align: center;margin: 40%; font-weight: bold  ;padding-top:50%; color: #812828;}
+  .box a:active{color: #FFEAD3;}
+ h4{ font-weight: bold; font-size:30px; margin-bottom: 20px; padding-top:2%;
+     }
+p{  font-weight: normal; font-size: 20px; text-indent: 1em; text-align: justify;margin-left: 3%;}
+
+ /*  //////////////////////////////////// النصيحة ////////////////*/
+.custom-tip-card { background-color: #ECDCBF;        border-radius: 20px; border: 2px dashed #9E3B3B !important;
+}
+.tip-title { color: #9E3B3B; font-weight: bold;}
+
+.main-btn {background-color: #9E3B3B;color: white;border-radius: 10px;transition: 0.3s ease-in-out;}
+
+.main-btn:hover { background-color: #221818; color: #FFEAD3;}
+ /*  ////////////////////////////////////   ////////////////*/
+
+/* تصنيفات   بناءً ع   */
+.cat-motivation { background-color: #9E3B3B; color: white; } /* تحفيز */
+.cat-kids { background-color: #4A6274; color: white; }       /* أطفال */
+.cat-general { background-color: #221818; color: white; }    /* عام */
+ /*  /////////////////////////انتهاء الصفحة الريسية ///////////   ////////////////*/
+/* ********************************* footer  *****************************************         */
+ .custom-footer { background-color: #9E3B3B; padding: 30px 0;margin-top: 55px;text-align: center;border-radius: 20px; 
+    clear: both;}
+
+ .footer-goal { font-size: 11pt; color: #EA7B7B; margin-bottom: 20px;line-height: 1.6;   }
+
+ .footer-info {font-size: 10pt;           color:#FFEAD3}
+
+ .info-item {display: inline-block;   margin: 5px 0;}
+
+.separator {margin: 0 10px; color: #FFEAD3 ;  font-weight: bold;}
+.footer-info img{width: 10%;float:left;}
+/*------------------------------------- -انتهاء---------------------------*/
+
+ 
+/*-------------------------------------المقالات----------------------------*/
+
+ 
+/*///////////////////تنقل المقلات////////////////*/
+ .jump-nav { background: #9E3B3B;padding: 10px; position: sticky;border-radius:5px;top: 0;
+ border-bottom: 4px solid #FFEAD3;}
+.jump-nav { background: #9E3B3B; padding: 10px; position: sticky; border-radius:5px; top: 0;
+ border-bottom: 4px solid #FFEAD3;}
+
+.jump-nav a {background:   #ec7575;color:   #9E3B3B;padding: 5px 15px;border-radius: 20;text-decoration: none;
+                   margin:0 10px ;
+
+}.jump-nav a:hover{background: #9E3B3B ; color:    #ec7575; padding: 5px 15px;
+               border-radius: 20;text-decoration: none;}
+/*    صناديق المقالات */
+.box2 { margin: 40px auto; max-width: 800px; padding: 20px; border: 1px solid  #9E3B3B;  border-radius:20px;    background-color:#fff4e8 ;
+
+
+ }
+.art-img {
+    height:400px;width:90%;background-size: cover;padding:20px 20px  40px 20px;}
+.box h2{
+     font-size:32px ; font-family :Helvetica; padding-top: 20px; color:  #812828;}
+.box2 h3{
+          font-size:  24px; color :#EA7B7B;
+}
+.box2 p {  width: 90%; margin: 10px auto;  line-height: 1.8; text-align: justify; font-size: 18px; 
+}
+ 
+/* **************************** انتهاء*****************************************/
+/* ****************************form*****************************************/
+ .doctor{
+   width:25%;  float:right;  background-color:  #EA7B7B;  height:40%;   padding-bottom: 30px;
+   box-shadow: 5px 5px #9E3B3B;border-radius: 20px;margin:3%; }
+   .doctor h4{font-size:18px;text-align :center;}
+    .doctor h5{font-size:16px;   text-align :center;}  
+  .doctor p{ font-size:12px; text-align :center; margin:auto }
+  .clear{  float: right; margin:10% ;  clear:right; }
+  
+.ress{ width:22%; background-color:#EA7B7B; float: left; margin: 10px; box-shadow: 5px 5px #FFEAD3;
+ border-radius: 20px;text-align: center;
+}
+
+.p-form{ font-size:12px;   text-align: center;   margin:auto;}
+
+.text-prim{  color: #9E3B3B}
+  
+.ress> h3{ font-size:16px;  margin-top: 5%;color: #9E3B3B;
+      /***************** انتهاء **********************/
+}
+  /*****************فيديو **********************/
+ul{list-style: none;} 
+.contentiner{width: 500px;  margin: 50px auto;  background-color: #f0b5b5;  padding: 20px;
+}
+.video{ 
+      margin:10px 20px;width: 400px;  height:400px;  ;
+}
+ 
+.tabs ul{ width: 100%; height: 50px; display: flex; margin-bottom: 20px;
+}
+.tabs ul li{ width: 40%; ;height:50px;background-color: #812828;text-align: center;line-height: 50px;cursor: pointer;
+transition: all .3s ease-in;color:#ECDCBF;}
+
+.tabs ul li:hover{
+    background-color:#EA7B7B ;}
+.tabs .activevideo{
+     background-color:#EA7B7B;   }
+.content h1{
+    font-size:28px ;}
+.content p{
+    font-size:16px ;
+}
+ .link {background-color: #9E3B3B;color: #f0b5b5;   border-radius:20px;  ;margin: 20px  50px;
+  text-align: center;
+padding:10px 20px}
+ .link:hover{color: #812828;background-color: #EA7B7B;}
+ .tab-content p{margin:10px 20px;}
+
+/****************************************الهاتف ****************************************************/
+
+@media screen  and (max-width:768px ){
+ #Lists .cont li{text-align:center;padding:0px;  }/*الناف */
+ .box2 p{ text-align :justify;}/*المقلات */
+ .contentiner{width: 99%;; margin-left: auto ;}
+.doctor{float: none; width:70%; margin-left:  auto; margin-right:  auto;/*صفحة الفرم تبعت الدكاترة */}
+.clear,.ress{ float: none;}/*الجدول و الفرم */
+ .ress{ width: 50%; margin-left:  auto; margin-right:  auto;}/*الجدول   */
+  .separator{ display:none;}/* الفوتر*/
+  /* الريسية و عن المنصة */
+  .box img{ width:50% ; float: none; margin: 10px 80px;}
+  .box p{text-align :justify;    margin-left:  10px; margin-right:   10px;  }
+  .box h4{text-align :justify;    margin-left:  10px;margin-right:   10px;  }
+
+}
+
+
+
+
+
+ 
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
