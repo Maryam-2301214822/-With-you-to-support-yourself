@@ -1,4 +1,9 @@
-//نصاح الصفحة الريسية 
+ //عند الضغض علي البكس في صفحة الريسية و صفحة المقالة 
+$(".box").hover(
+        function() { $(this).css({"transform": "scale(1.05)", "transition": "0.3s"}); },
+        function() { $(this).css("transform", "scale(1)"); }
+    );
+//نصاح الصفحة الريسية   
 //مصوفةبينات هي تحفير=ز زائد نصائح 
  // //
 
@@ -78,7 +83,7 @@ $(document).ready(function() {
 ///////////////////////////form////////////////////////////////////////////
 
 
-    // --- 3. تأثيرات jQuery على نموذج التواصل (Form Interaction) ---
+    //  . تأثيرات jQuery على نموذج التواصل (Form Interaction) ---
     $("form").on("submit", function(event) {
         event.preventDefault(); // منع الصفحة من التحديث
 
@@ -143,4 +148,5 @@ $(document).ready(function() {
             </div>`;
     }
     $("#about-stats").html(aboutHTML);
+
 });
