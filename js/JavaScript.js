@@ -83,13 +83,13 @@ $(document).ready(function() {
 ///////////////////////////form////////////////////////////////////////////
 
 
-    //  . تأثيرات jQuery على نموذج التواصل (Form Interaction) ---
-    $("form").on("submit", function(event) {
-        event.preventDefault(); // منع الصفحة من التحديث
+    //  . تأثيرات   على نموذج التواصل 
+$("form").submit(function(event) {
+ event.preventDefault(); // منع الصفحة من التحديث
 
         // جلب قيمة اسم المستخدم (إذا كتبه)
-        let userName = $("input[name='name']").val() || "عزيزتي";
-
+        let userName = $("input[name='name']").val() || "عزيزتي";  
+                                                        //اذلم يكتب الاسم
         // إخفاء النموذج وإظهار رسالة نجاح بحركة Fade
         $(this).fadeOut(500, function() {
             $(this).after(`
@@ -102,8 +102,7 @@ $(document).ready(function() {
         });
     });
 
-    // . حركة إضافية (Hover Effect) باستخدام jQuery ---
-    // عند تمرير الماوس للصورة تصبح أكثر وضوحاً
+     // عند تمرير الماوس للصورة تصبح أكثر وضوحاً
     $(".doctor").hover(
         function() { $(this).css({"transform": "scale(1.05)", "transition": "0.3s"}); },
         function() { $(this).css("transform", "scale(1)"); }
@@ -137,7 +136,7 @@ $(document).ready(function() {
 
     let aboutHTML = "";
      
-    for (let i = 0; i < aboutInfo.length; i++) {  // استخدام الـ Loop لعرض البيانات 
+    for (let i = 0; i < aboutInfo.length; i++) {  //   Loop لعرض البيانات 
         aboutHTML += `
             <div class="col-md-4 mb-3">
                 <div class="p-3 shadow-sm rounded bg-white border-top border-danger">
@@ -150,4 +149,5 @@ $(document).ready(function() {
     $("#about-stats").html(aboutHTML);
 
 });
+
 
