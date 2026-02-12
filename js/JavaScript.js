@@ -48,7 +48,7 @@ $(document).ready(function() {
     updateTip();
 
     // عند الضغط على الزر  
-    $("#refresh-btn").on("click", function() {
+    $("#refresh-btn").click (function() {
         //"الاختفاء والظهور"  
         $("#tip-display").fadeOut(300, function() {
             updateTip(); //  وهي مخفية
@@ -150,3 +150,4 @@ $(document).ready(function() {
     $("#about-stats").html(aboutHTML);
 
 });
+
