@@ -111,6 +111,7 @@ p{  font-weight: normal; font-size: 20px; text-indent: 1em; text-align: justify;
 .box2 p {  width: 90%; margin: 10px auto;  line-height: 1.8; text-align: justify; font-size: 18px; 
 }
  
+ 
 /* **************************** انتهاء*****************************************/
 /* ****************************form*****************************************/
  .doctor{
@@ -130,6 +131,8 @@ p{  font-weight: normal; font-size: 20px; text-indent: 1em; text-align: justify;
 .text-prim{  color: #9E3B3B}
   
 .ress> h3{ font-size:16px;  margin-top: 5%;color: #9E3B3B;
+          .status-online{color: #38ff48;}
+.status-offline{color: #ff0505;}
       /***************** انتهاء **********************/
 }
   /*****************فيديو **********************/
@@ -187,6 +190,7 @@ padding:10px 20px}
  
 
  
+
 
 
 
